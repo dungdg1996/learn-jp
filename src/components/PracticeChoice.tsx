@@ -53,7 +53,7 @@ const PracticeChoice: React.FC<PracticeChoiceProps> = ({
 
   return (
     <div className="flex flex-col gap-4 items-center">
-      <div>
+      <div className="flex items-center justify-center" style={{ minHeight: 100 }}>
         <span className="text-xl font-semibold text-blue-700 drop-shadow">
           {word}
         </span>

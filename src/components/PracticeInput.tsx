@@ -4,6 +4,7 @@ type PracticeInputProps = {
   word: string; // Vietnamese word
   correctAnswer: string; // Japanese answer
   onCheck: (answer: string) => void;
+  onChange: (answer: string) => void;
   showFeedback: boolean;
   isCorrect: boolean | null;
   userAnswer: string;
@@ -12,6 +13,7 @@ type PracticeInputProps = {
 const PracticeInput: React.FC<PracticeInputProps> = ({
   word,
   onCheck,
+  onChange,
   showFeedback,
   isCorrect,
   userAnswer,
@@ -44,6 +46,7 @@ const PracticeInput: React.FC<PracticeInputProps> = ({
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInput(e.target.value);
+    onChange(e.target.value); // Gọi hàm onChange từ props để cập nhật userAnswer
   };
 
   const handleSubmit = (e: React.FormEvent) => {

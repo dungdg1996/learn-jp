@@ -80,10 +80,19 @@ const App: React.FC = () => {
   };
 
   const handleNext = () => {
-    setCurrentIdx(getRandomIndex(words.length, currentIdx));
-    setShowFeedback(false);
-    setIsCorrect(null);
-    setUserAnswer("");
+    if (showFeedback) {
+      setCurrentIdx(getRandomIndex(words.length, currentIdx));
+      setShowFeedback(false);
+      setIsCorrect(null);
+      setUserAnswer("");
+      return;
+    }
+    const correct =
+      mode === "input"
+        ? userAnswer.trim() === words[currentIdx].jp
+        : userAnswer.trim() === words[currentIdx].vn;
+    setIsCorrect(correct);
+    setShowFeedback(true);
   };
 
   return (
@@ -127,6 +136,7 @@ const App: React.FC = () => {
               word={words[currentIdx].vn}
               correctAnswer={words[currentIdx].jp}
               onCheck={handleCheck}
+              onChange={(value) => setUserAnswer(value)}
               showFeedback={showFeedback}
               isCorrect={isCorrect}
               userAnswer={userAnswer}
@@ -153,7 +163,7 @@ const App: React.FC = () => {
             />
           </div>
         </div>
-        <NextButton onClick={handleNext} />
+        <NextButton isCheck={!showFeedback} onClick={handleNext} />
       </div>
     </div>
   );
