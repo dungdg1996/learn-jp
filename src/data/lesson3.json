@@ -7,8 +7,8 @@
   { "jp": "そちら", "vn": "phía đó" },
   { "jp": "あちら", "vn": "phía kia" },
   { "jp": "どちら", "vn": "phía nào" },
-  { "jp": "うけつけ", "vn": "lễ tân (công ty, cơ quan)" },
-  { "jp": "フロント", "vn": "lễ tân (khách sạn)" },
+  { "jp": "うけつけ", "vn": "quầy lễ tân (công ty, cơ quan)" },
+  { "jp": "フロント", "vn": "quầy lễ tân (khách sạn)" },
   { "jp": "かいだん", "vn": "cầu thang" },
   { "jp": "エレベーター", "vn": "thang máy" },
   { "jp": "エスカレーター", "vn": "thang cuốn" },
@@ -35,8 +35,9 @@
   { "jp": "バスてい", "vn": "trạm xe bus" },
   { "jp": "えき", "vn": "nhà ga" },
   { "jp": "おくに", "vn": "đất nước (của anh, chị)" },
+  { "jp": "くに", "vn": "đất nước (của tôi)" },
   { "jp": "いくら", "vn": "bao nhiêu tiền" },
   { "jp": "えん", "vn": "yên" },
   { "jp": "ドン", "vn": "đồng" },
-  { "jp": "ドレ", "vn": "đô la" }
+  { "jp": "ドル", "vn": "đô la" }
 ] 
