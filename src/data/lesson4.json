@@ -1,0 +1,115 @@
+[
+  {
+    "jp": "イケメン",
+    "kanji": "",
+    "vn": "đẹp trai (men)",
+    "romanji": "ikemen"
+  },
+  {
+    "jp": "ハンサム",
+    "kanji": "",
+    "vn": "đẹp trai (handsome)",
+    "romanji": "hanseme"
+  },
+  {
+    "jp": "きれい",
+    "type": "tính từ",
+    "kanji": "綺麗",
+    "vn": "xinh, đẹp, sạch",
+    "romanji": "kirei"
+  },
+  {
+    "jp": "しんせつ",
+    "type": "tính từ",
+    "kanji": "親切",
+    "vn": "tốt bụng",
+    "romanji": "shinsetsu"
+  },
+  {
+    "jp": "げんき",
+    "type": "tính từ",
+    "kanji": "元気",
+    "vn": "khỏe mạnh",
+    "romanji": "genki"
+  },
+  {
+    "jp": "しずか",
+    "type": "tính từ",
+    "kanji": "静か",
+    "vn": "yên tĩnh",
+    "romanji": "shizuka"
+  },
+  {
+    "jp": "にぎやか",
+    "type": "tính từ",
+    "kanji": "賑やか",
+    "vn": "náo nhiệt",
+    "romanji": "nigiyaka"
+  },
+  { "jp": "ゆうめい", "type": "tính từ", "kanji": "有名", "vn": "nổi tiếng" },
+  { "jp": "べんり", "type": "tính từ", "kanji": "便利", "vn": "tiện lợi" },
+  { "jp": "たいせつ", "type": "tính từ", "kanji": "大切", "vn": "quan trọng" },
+  { "jp": "ひま", "type": "tính từ", "kanji": "暇", "vn": "rảnh rỗi" },
+  { "jp": "いそがしい", "kanji": "忙しい", "vn": "bận rộn" },
+  { "jp": "おおきい", "kanji": "大きい", "vn": "to, lớn" },
+  { "jp": "ちいさい", "kanji": "小さい", "vn": "nhỏ, bé" },
+  { "jp": "あたらしい", "kanji": "新しい", "vn": "mới" },
+  { "jp": "ふるい", "kanji": "古い", "vn": "cũ" },
+  { "jp": "いい（よい）", "kanji": "良い", "vn": "tốt" },
+  { "jp": "わるい", "kanji": "悪い", "vn": "xấu" },
+  { "jp": "あつい", "kanji": "暑い", "vn": "nóng (dùng cho thời tiết)" },
+  { "jp": "さむい", "kanji": "寒い", "vn": "lạnh, rét (dùng cho thời tiết)" },
+  { "jp": "あつい", "kanji": "熱い", "vn": "nóng (dùng cho cảm giác)" },
+  {
+    "jp": "つめたい",
+    "kanji": "冷たい",
+    "vn": "lạnh, buốt (dùng cho cảm giác)"
+  },
+  { "jp": "むずかしい", "kanji": "難しい", "vn": "khó" },
+  { "jp": "やさしい", "kanji": "易しい / 優しい", "vn": "dễ, hiền lành" },
+  { "jp": "たかい", "kanji": "高い", "vn": "đắt, cao" },
+  { "jp": "やすい", "kanji": "安い", "vn": "rẻ" },
+
+  { "jp": "ひくい", "kanji": "低い", "vn": "thấp" },
+  { "jp": "あかるい", "kanji": "明るい", "vn": "sáng sủa, tươi sáng" },
+  { "jp": "くらい", "kanji": "暗い", "vn": "tối, u ám" },
+  { "jp": "おもしろい", "kanji": "面白い", "vn": "thú vị" },
+  { "jp": "かわいい", "kanji": "可愛い", "vn": "dễ thương" },
+  { "jp": "おいしい", "kanji": "美味しい", "vn": "ngon" },
+  { "jp": "たのしい", "kanji": "楽しい", "vn": "vui vẻ" },
+  { "jp": "しろい", "kanji": "白い", "vn": "trắng" },
+  { "jp": "あかい", "kanji": "赤い", "vn": "đỏ" },
+  { "jp": "あおい", "kanji": "青い", "vn": "xanh" },
+  { "jp": "くろい", "kanji": "黒い", "vn": "đen" },
+  { "jp": "さびしい", "kanji": "寂しい", "vn": "cô đơn" },
+
+  { "jp": "はな", "kanji": "花", "vn": "hoa" },
+  { "jp": "さくら", "kanji": "桜", "vn": "hoa anh đào" },
+  { "jp": "やま", "kanji": "山", "vn": "núi" },
+  { "jp": "ふじさん", "kanji": "富士山", "vn": "núi Phú Sĩ" },
+  { "jp": "まち", "kanji": "町", "vn": "thị trấn, thành phố" },
+  { "jp": "たべもの", "kanji": "食べ物", "vn": "đồ ăn" },
+  { "jp": "きもの", "kanji": "着物", "vn": "kimono" },
+  { "jp": "きかい", "kanji": "機械", "vn": "máy móc" },
+  { "jp": "ところ", "kanji": "所", "vn": "nơi, chỗ" },
+  { "jp": "べんきょう", "kanji": "勉強", "vn": "học, việc học" },
+  {
+    "jp": "せいかつ",
+    "kanji": "生活",
+    "vn": "cuộc sống, sinh hoạt, đời sống"
+  },
+  { "jp": "ぶっか", "kanji": "物価", "vn": "vật giá" },
+  { "jp": "しごと", "kanji": "お仕事", "vn": "công việc" },
+  { "jp": "りょうり", "kanji": "料理", "vn": "món ăn" },
+  { "jp": "パスポート", "kanji": "", "vn": "hộ chiếu" },
+  { "jp": "どう", "kanji": "", "vn": "thế nào" },
+  { "jp": "どんな", "kanji": "", "vn": "như thế nào" },
+  { "jp": "どれ", "kanji": "", "vn": "cái nào" },
+  { "jp": "とても", "kanji": "", "vn": "rất" },
+  {
+    "jp": "あまり",
+    "kanji": "",
+    "vn": "không ~ lắm (dùng với thể phủ định)"
+  },
+  { "jp": "そして", "kanji": "", "vn": "hơn nữa, và (dùng để nối 2 câu)" }
+]

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import lesson3 from "./data/lesson3.json";
+import lesson4 from "./data/lesson4.json";
 import LessonSelector from "./components/LessonSelector";
 import PracticeInput from "./components/PracticeInput";
 import PracticeChoice from "./components/PracticeChoice";
@@ -19,6 +20,7 @@ type LessonMap = {
 
 const lessons: LessonMap = {
   "Bài 3": lesson3,
+  "Bài 4": lesson4,
 };
 
 const lessonKeys = Object.keys(lessons);
@@ -35,7 +37,7 @@ const getRandomIndex = (length: number, exclude?: number) => {
 
 const App: React.FC = () => {
   const [mode, setMode] = useState<Mode>("input");
-  const [lesson, setLesson] = useState<string>(lessonKeys[0]);
+  const [lesson, setLesson] = useState<string>(lessonKeys[1]);
   const [words, setWords] = useState<WordPair[]>(lessons[lessonKeys[0]]);
   const [currentIdx, setCurrentIdx] = useState<number>(
     getRandomIndex(lessons[lessonKeys[0]].length)
